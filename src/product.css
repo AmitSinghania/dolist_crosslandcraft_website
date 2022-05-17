@@ -1,0 +1,31 @@
+.productcontainer {
+  margin: 1px;
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  grid-template-rows: auto;
+  grid-column-gap: 10px;
+  grid-row-gap: 10px;
+  /* justify-content: space-around; */
+  background-color: rgb(240, 239, 239);
+}
+.productcontainer-single {
+  text-align: center;
+  border: 20px solid #fff;
+  background-color: #fff;
+}
+.Form {
+  display: none;
+}
+
+@media screen and (max-width: 880px) {
+  .productcontainer {
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: auto;
+  }
+  .productcontainer-single {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}

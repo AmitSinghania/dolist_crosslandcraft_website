@@ -1,0 +1,19 @@
+body {
+  width: 100%;
+}
+
+.footer {
+  display: flex;
+  background-color: black;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 180px;
+  width: 100%;
+}
+.footer p {
+  color: #ffffff;
+}
+.footer a {
+  color: #ffffff;
+}

@@ -1,0 +1,24 @@
+.Form {
+  display: flex;
+  flex-direction: column;
+  margin: 40px;
+  width: 65%;
+}
+.Form .aligninput {
+  display: flex;
+  flex-direction: column;
+  border-radius: 3px;
+  background-color: grey;
+  padding: 20 20px;
+  border: 3px solid #cccc;
+}
+input {
+  padding: 10px;
+  margin: 5px;
+  font-size: 1.1em;
+}
+
+.Form .aligninput button {
+  margin: 20px 20px;
+  font-size: 1.1em;
+}

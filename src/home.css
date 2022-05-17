@@ -1,0 +1,193 @@
+.grid-maincontainer {
+}
+
+.grid-container {
+  display: grid;
+  justify-content: space-between;
+  margin: 0 20px;
+  grid-template-columns: auto auto;
+  background-color: antiquewhite;
+  /* justify-content: space-between; */
+}
+.grid-item-furniture {
+  background-color: antiquewhite;
+  margin: 20px;
+  /* height: 500px;
+  width: 100%; */
+}
+.grid-item-furniture img {
+  height: 500px;
+  width: 100%;
+}
+
+.grid-item-text h1 {
+  font-style: italic;
+  font-weight: 300;
+  color: green;
+  text-align: center;
+}
+.grid-item-text p {
+  /* margin: 50px; */
+  font-size: 1.4em;
+}
+
+/* second grid */
+.grid-container1 {
+  display: grid;
+  grid-template-columns: auto auto;
+  justify-content: space-between;
+  background-color: antiquewhite;
+  margin: 0 20px;
+}
+.grid-container1-text h1 {
+  font-style: italic;
+  font-weight: 200px;
+  margin: 10px;
+}
+.grid-container1-text p {
+  font-size: 1.3em;
+  justify-content: center;
+  margin: 60px 10px;
+  align-items: center;
+}
+.grid-container1-img img {
+  height: 500px;
+  margin: 10px;
+}
+
+/* third grid */
+.grid-item-terracotta-text {
+  display: grid;
+  background-color: rgb(185, 235, 185);
+  height: 120px;
+  align-items: center;
+  justify-content: center;
+  margin: 20px;
+}
+.grid-item-terracotta-text h1 {
+  font-style: italic;
+}
+.grid-item-terracotta-img {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  margin: 20px;
+}
+
+/* .grid-item-wooden {
+  display: grid;
+  grid-template-rows: auto auto auto auto; 
+  //grid-template-columns: auto;
+  background-color: antiquewhite;
+} */
+.grid-item-wooden-text {
+  margin: 20px;
+}
+.grid-item-wooden-text h1 {
+  font-style: italic;
+  color: orange;
+}
+.grid-item-wooden-text p {
+  font-size: 1.4em;
+}
+.terracotta-pot {
+  display: grid;
+  grid-template-columns: auto auto;
+  margin: 20px;
+  background-color: antiquewhite;
+}
+.terracotta-pot p {
+  font-size: 1.4em;
+  margin: 20px;
+}
+.terracotta-pot img {
+  height: 700px;
+  width: 100%;
+}
+.container-grid-bowl {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  margin: 20px;
+  justify-content: space-between;
+}
+.container-grid-bowl img {
+  height: 360px;
+  width: 100%;
+}
+
+@media screen and (max-width: 1472px) {
+  .grid-item-terracotta-img {
+    display: grid;
+    grid-template-columns: auto auto auto;
+  }
+}
+@media screen and (max-width: 1120px) {
+  .grid-item-terracotta-img {
+    display: grid;
+    background-color: rgb(185, 235, 185);
+    grid-template-columns: auto auto;
+    justify-content: space-evenly;
+  }
+}
+@media screen and (max-width: 880px) {
+  .grid-container {
+    display: grid;
+    margin: 5px;
+    grid-template-columns: auto;
+  }
+  .grid-item-furniture img {
+    height: 250px;
+    /* width: 100%;  */
+  }
+  .grid-item-text p {
+    font-size: 1em;
+  }
+  /* second grid */
+  .grid-container1 {
+    display: grid;
+    grid-template-columns: auto;
+    justify-content: space-between;
+    background-color: antiquewhite;
+    margin: 0 5px;
+  }
+  .grid-container1-img img {
+    height: 230px;
+  }
+  .grid-container1-text p {
+    font-size: 1em;
+  }
+  .grid-item-terracotta-text {
+    margin: 5px;
+  }
+  .grid-item-terracotta-text h1 {
+    font-size: 1em;
+    text-align: center;
+  }
+  /* thirdgrid */
+
+  .grid-item-terracotta-img {
+    display: grid;
+
+    grid-template-columns: auto;
+    margin: 5px;
+    background-color: rgb(185, 235, 185);
+  }
+  .grid-item-terracotta img {
+  }
+  .grid-item-wooden-text p {
+    font-size: 1em;
+  }
+  .terracotta-pot {
+    display: grid;
+    grid-template-columns: auto;
+    margin: 5px;
+  }
+  .terracotta-pot p {
+    font-size: 1em;
+    margin: 20px;
+  }
+  .container-grid-bowl {
+    display: grid;
+    grid-template-columns: auto;
+    margin: 5px;
+  }
+}
